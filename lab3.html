@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab 2</title>
+    <style>
+        tr, td, th{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="border: 1px solid black;">
+        <tr><!-- heading line1 -->
+            <th style="border: 1px solid black;" rowspan="2" colspan="2">Heading</th>
+            <th style="border: 1px solid black;" >Student</th>
+            <th style="border: 1px solid black;"colspan="4" >Details</th>
+    </tr>
+    <tr><!-- heading line2 -->
+        <th style="border: 1px solid black;" >Id</th>
+        <th style="border: 1px solid black;">Name</th>
+        <th style="border: 1px solid black;">Department</th>
+        <th style="border: 1px solid black;">Roll Number</th>
+    </tr>
+    <tr><!-- data row 1 -->
+        <td style="border: 1px solid black;" rowspan="4" colspan="2">Student List</td>
+        <td style="border: 1px solid black;">1</td>
+        <td style="border: 1px solid black;">Victor</td>
+        <td style="border: 1px solid black;">computer Science</td>
+        <td style="border: 1px solid black;">12345</td>
+    </tr>
+    <tr><!-- data row 2 -->
+        <td style="border: 1px solid black;">2</td>
+        <td style="border: 1px solid black;">Will</td>
+        <td style="border: 1px solid black;">Electronics</td>
+        <td style="border: 1px solid black;">12345</td>
+    </tr>
+     <tr><!-- data row 3 -->
+        <td style="border: 1px solid black;">3</td>
+        <td style="border: 1px solid black;">Harry</td>
+        <td style="border: 1px solid black;">Electronics</td>
+        <td style="border: 1px solid black;">2345</td>
+    </tr>
+    <tr><!-- data row 4 -->
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">Rick</td>
+        <td style="border: 1px solid black;">civil</td>
+        <td style="border: 1px solid black;">92345</td>
+    </tr> 
+        
+    </table>   
+
+    <!-- //////////////////Table 02////////////////////// -->
+
+    <table style="border: 1px solid black; margin: 2rem;">
+        <tr><!-- heading row 1 -->
+            <th style="border: 1px solid black;" rowspan="3"> Day</th>
+            <th style="border: 1px solid black;" colspan="6"> Seminar</th>
+        </tr>
+
+        <tr> <!-- Heading row 2 -->
+            <th style="border: 1px solid black;" colspan="2">Schedule </th>
+            <th style="border: 1px solid black;" colspan="3" rowspan="2"> Topic</th>
+        </tr>
+
+        <tr>  <!-- Heading row 3 -->
+            <th style="border: 1px solid black;">Begin</th>
+            <th style="border: 1px solid black;">End</th>
+        </tr>
+        <tr> <!-- data row 1 -->
+            <td style="border: 1px solid black;" rowspan="2">Monday</td>
+            <td style="border: 1px solid black;" rowspan="2">8:00 a.m.</td>
+            <td style="border: 1px solid black;" rowspan="2">5:00 p.m.</td>
+            <td style="border: 1px solid black;"> Introduction to XML</td>
+        </tr>
+        <tr><!-- data row 2 -->
+            <td style="border: 1px solid black;">Validity: DTD and Relax NG</td>
+            </tr>
+
+            <tr><!-- data row 3 -->
+                <td style="border: 1px solid black;" rowspan="3">Tuesday</td>
+                <td style="border: 1px solid black;">8:00 a.m.</td>
+                <td style="border: 1px solid black;">11:00 a.m.</td>
+                <td style="border: 1px solid black;" rowspan="3">XPath <hr>XSL Transfromations  </td>
+               </tr>
+
+               <tr><!-- tuesday row 2 -->
+                <td>11:00 a.m.</td>
+                <td>2:00 p.m. </td>
+                <!-- <td>XSL Transfromations</td> -->
+               </tr>
+
+               <tr><!-- tue row 3 -->
+                <td>2:00 p.m.</td>
+                <td>5:00 p.m.</td>
+               </tr>
+
+               <tr>
+                <td>Wednesday</td>
+                <td>8:00 a.m.</td>
+                <td>12:00 p.m.</td>
+                <td>XSL Formatting Objects</td>
+               </tr>
+    </table>
+
+</body>
+</html>
